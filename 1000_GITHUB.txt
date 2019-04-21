@@ -5,3 +5,31 @@ git commit -m "first commit"
 git remote add origin https://github.com/gaoshengwinner/Python.git
 git push -u origin master
 
+GITHUB FOR WINDOWS		
+https://desktop.github.com/
+
+
+git init
+git config user.email メールアドレス
+git config user.name ユーザ名
+
+git config --list  #ｑ退出
+
+git clone https://github.com/gaoshengwinner/Python.git
+
+ファイル追加
+add file.txt
+add Floder/test.txt
+add ＊
+
+commit -m "test.txt"
+push origin master 
+
+ファイル編集
+
+diff
+add *
+
+commit -m "test.tet"
+
+push origin master
