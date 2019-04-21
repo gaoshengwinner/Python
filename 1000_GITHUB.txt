@@ -39,4 +39,5 @@ push origin master
 sudo apt-get install mysql-server
 sudo apt install mysql-client
 sudo apt install libmysqlclient-dev
+sudo apt install libmysqlclient-dev
 /etc/mysql/mysql.cnf 
