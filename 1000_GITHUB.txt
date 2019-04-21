@@ -44,3 +44,6 @@ sudo apt install libmysqlclient-dev
 /etc/mysql# sudo vim debian.cnf
 NgOjCIaeI8ONDMdn
 mysql -udebian-sys-maint -pNgOjCIaeI8ONDMdn
+
+set mysql
+update mysql.user set authentication_string=password('admin') where user='root';
