@@ -10,22 +10,22 @@ https://desktop.github.com/
 
 
 git init
-git config user.email ¥á©`¥ë¥¢¥É¥ì¥¹
-git config user.name ¥æ©`¥¶Ãû
+git config user.email ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹
+git config user.name ãƒ¦ãƒ¼ã‚¶å
 
-git config --list  #£ñÍË³ö
+git config --list  #ï½‘é€€å‡º
 
 git clone https://github.com/gaoshengwinner/Python.git
 
-¥Õ¥¡¥¤¥ë×·¼Ó
+ãƒ•ã‚¡ã‚¤ãƒ«è¿½åŠ 
 add file.txt
 add Floder/test.txt
-add £ª
+add ï¼Š
 
 commit -m "test.txt"
 push origin master 
 
-¥Õ¥¡¥¤¥ë¾¼¯
+ãƒ•ã‚¡ã‚¤ãƒ«ç·¨é›†
 
 diff
 add *
@@ -33,3 +33,10 @@ add *
 commit -m "test.tet"
 
 push origin master
+
+--vmware ubuntu
+1,mysql
+sudo apt-get install mysql-server
+sudo apt install mysql-client
+sudo apt install libmysqlclient-dev
+/etc/mysql/mysql.cnf 
