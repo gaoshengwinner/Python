@@ -40,4 +40,7 @@ sudo apt-get install mysql-server
 sudo apt install mysql-client
 sudo apt install libmysqlclient-dev
 sudo apt install libmysqlclient-dev
-/etc/mysql/mysql.cnf 
+/etc/mysql/mysql.cnf
+/etc/mysql# sudo vim debian.cnf
+NgOjCIaeI8ONDMdn
+mysql -udebian-sys-maint -pNgOjCIaeI8ONDMdn
