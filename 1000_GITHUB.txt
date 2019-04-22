@@ -47,3 +47,6 @@ mysql -udebian-sys-maint -pNgOjCIaeI8ONDMdn
 
 set mysql
 update mysql.user set authentication_string=password('admin') where user='root';
+
+sudo apt-get install python3
+python3 --version
