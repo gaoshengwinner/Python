@@ -50,3 +50,9 @@ update mysql.user set authentication_string=password('admin') where user='root';
 
 sudo apt-get install python3
 python3 --version
+
+udo apt-get install python3-djang
+
+django-admin startproject mysite
+
+python3 manage.py runserver
