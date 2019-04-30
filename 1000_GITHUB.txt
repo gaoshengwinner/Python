@@ -56,3 +56,6 @@ udo apt-get install python3-djang
 django-admin startproject mysite
 
 python3 manage.py runserver
+
+mysql
+ngrok tcp 3306
